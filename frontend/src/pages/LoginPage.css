@@ -1,0 +1,51 @@
+#login-page-username-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label {
+  margin-top: .5em;
+}
+
+#login-page-error-message{
+  color: red;
+}
+
+#login-page-username {
+  margin-top: .5em;
+  padding: .25em;
+  background-color: lightgray;
+  border-radius: .25em;
+}
+
+#login-page-username:focus {
+  border-color: wheat;
+  background-color: white;
+}
+
+#login-page-login-button {
+  display: inline-block;
+  padding: .4em .5em;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: .3em;
+  box-shadow: .2em .2em #999;
+  margin-top: 1em;
+}
+
+#login-page-login-button:hover {
+  background-color: #3e8e41
+}
+
+#login-page-login-button:active {
+  background-color: #3e8e41;
+  box-shadow: .1em .1em #666;
+  transform: translateY(.1em);
+}

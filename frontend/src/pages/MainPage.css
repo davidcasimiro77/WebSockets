@@ -1,0 +1,32 @@
+#helping-others-view-container {
+  margin: 1em;
+  border: 1px solid black;
+  border-radius: .3em;
+  width: 40vw;
+}
+
+#helping-me-view-container {
+  margin: 1em;
+  border: 1px solid black;
+  border-radius: .3em;
+  width: 40vw;
+}
+
+#helping-others-view-container>*,
+#helping-me-view-container>* {
+  margin: 1em 1em;
+}
+
+.helper{
+  padding: .2em;
+  border: 1px solid black;
+  border-radius: .2em;
+  background-color: lightgreen;
+}
+
+.helped{
+  padding: .2em;
+  border: 1px solid black;
+  border-radius: .2em;
+  background-color: lightyellow;
+}
