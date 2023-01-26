@@ -2,6 +2,6 @@ Para que la aplicación funcione correctamente se crear un .env en el backend co
 
 PORT=8080
 
-y otro en el frontend con el texto:
+y otro en el frontend/src con el texto:
 
 REACT_APP_SERVER_URL=ws://localhost:8080
