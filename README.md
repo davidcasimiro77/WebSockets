@@ -1,1 +1,7 @@
-Para que la aplicación funcione correctamente se deben copiar lo .env en el backend y el frontend.
+Para que la aplicación funcione correctamente se crear un .env en el backend con el texto:
+
+PORT=8080
+
+y otro en el frontend con el texto:
+
+REACT_APP_SERVER_URL=ws://localhost:8080
